@@ -1,85 +1,90 @@
 # FeatureEngineering_DataPreprocessing for Machine Learning
 This is an extreme data-preprocessing and Feature engineering and scaling Python Notebooks from my analysis on some Financial datasets
+
 Byfar one of the 80% steps in entire Data Science Life Cycle by Saikiran Dasari
-I would like to Thank 'Soledad Galli' for making the startegy work for this repository!! www.trainindata.com
 
-Introduction: Variable Types
+I would like to Thank 'Soledad Galli' for making the startegy work for this updated repository!! www.trainindata.com
 
-Numerical Variables: Discrete and continuous
-Categorical Variables: Nominal and Ordinal
-Datetime variables
-Mixed variables: strings and numbers
-Variable Characteristics
+## Table of Contents:
 
-Missing Data
-Cardinality
-Category Frequency
-Distributions
-Outliers
-Magnitude
-Missing Data Imputation
+1. **2Credit&TitanicDatsetPreparation**
 
-Mean and Median Imputation
-Arbitrary value imputation
-End of Tail Imputation
-Frequent category imputation
-Adding string missing
-Random Sample Imputation
-Adding a missing indicator
-Imputation with Scikit-learn
-Imputation with Feature-engine
-Multivariate Imputation
+2. **Introduction: Variable Types**
+	1. Numerical Variables: Discrete and continuous
+	2. Categorical Variables: Nominal and Ordinal
+	3. Datetime variables
+	4. Mixed variables: strings and numbers
 
-MICE
-KNN imputation
-Categorical Variable Encoding
+3. **Variable Characteristics**
+	1. Missing Data 
+	2. Cardinality
+	3. Category Frequency
+	4. Distributions
+	5. Outliers
+	6. Magnitude
 
-One hot encoding: simple and of frequent categories
-Ordinal encoding: arbitrary and ordered
-Target mean encoding
-Weight of evidence
-Probability Ratio
-Rare Label encoding
-Encoding with Scikit-learn
-Encoding with Feature-engine
-Encoding with category encoders
-Variable Transformation
+4. **Missing Data Imputation**
+	1. Mean and Median Imputation
+	2. Arbitrary value imputation
+	3. End of Tail Imputation
+	4. Frequent category imputation
+	5. Adding string missing
+	6. Random Sample Imputation
+	7. Adding a missing indicator
+	8. Imputation with Scikit-learn
+	9. Imputation with Feature-engine
 
-Log, power and reciprocal
-Box-Cox
-yeo-Johnson
-Transformation with Scikit-learn
-Transformation with Feature-engine
-Discretisation
+5. **Multivariate Imputation**
+	1. MICE
+	2. KNN imputation
 
-Arbitrary
-Equal-frequency discretisation
-Equal-width discretisation
-K-means discretisation
-Discretisation with trees
-Discretisation with Scikit-learn
-Discretisation with Feature-engine
-Outliers
+6. **Categorical Variable Encoding**
+	1. One hot encoding: simple and of frequent categories
+	2. Ordinal encoding: arbitrary and ordered
+	3. Target mean encoding
+	4. Weight of evidence
+	5. Probability Ratio
+	6. Rare Label encoding
+	7. Encoding with Scikit-learn
+	8. Encoding with Feature-engine
+	9. Encoding with category encoders
 
-Capping
-Trimming
-Feature Scaling
+7. **Variable Transformation**
+	1. Log, power and reciprocal
+	2. Box-Cox
+	3. yeo-Johnson
+	4. Transformation with Scikit-learn
+	5. Transformation with Feature-engine
 
-Standardisation
-MinMaxScaling
-MaxAbsoluteScaling
-RobustScaling
-Mixed variables
+8. **Discretisation**
+	1. Arbitrary
+	2. Equal-frequency discretisation
+	3. Equal-width discretisation
+	4. K-means discretisation
+	5. Discretisation with trees
+	6. Discretisation with Scikit-learn
+	7. Discretisation with Feature-engine
 
-Creating new variables from strings and numbers
-Datetime
+9. **Outliers**
+	1. Capping
+	2. Trimming
 
-Extracting day, month, week, etc
-Extracting hr, min, sec, etc
-Capturing elapsed time
-Working with timezones
-Pipelines
+10. **Feature Scaling**
+	1. Standardisation
+	2. MinMaxScaling
+	3. MaxAbsoluteScaling
+	4. RobustScaling
 
-Classification Pipeline
-Regression Pipeline
-Pipeline with cross-validation
+11. **Mixed variables**
+	1. Creating new variables from strings and numbers
+
+12. **Datetime**
+	1. Extracting day, month, week, etc
+	2. Extracting hr, min, sec, etc
+	3. Capturing elapsed time
+	4. Working with timezones
+
+13. **Pipelines**
+	1. Classification Pipeline
+	2. Regression Pipeline
+	3. Pipeline with cross-validation
